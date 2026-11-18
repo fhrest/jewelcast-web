@@ -49,4 +49,7 @@ export const useStore = create((set) => ({
     // Экспорт
   isExporting: false,
   setIsExporting: (val) => set({ isExporting: val }),
+    // Модальное окно расчетов
+  isCalcOpen: false,
+  setIsCalcOpen: (val) => set({ isCalcOpen: val }),
 }))
